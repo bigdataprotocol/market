@@ -10,20 +10,20 @@
     },
     "fixed": {
       "title": "Fixed",
-      "info": "Set your price for accessing this data set. The datatoken for this data set will be worth the entered amount of OCEAN.",
+      "info": "Set your price for accessing this data set. The datatoken for this data set will be worth the entered amount of BDP.",
       "tooltips": {
-        "communityFee": "Goes to Ocean DAO for teams to improve the tools, build apps, do outreach, and more. A small fraction is used to burn OCEAN. This fee is collected when downloading or using an asset in a compute job.",
-        "marketplaceFee": "Goes to the marketplace owner that is hosting and providing the marketplace and is collected when downloading or using an asset in a compute job. In Ocean Market, it is treated as network revenue that goes to the Ocean community."
+        "communityFee": "Goes to BDP DAO for teams to improve the tools, build apps, do outreach, and more. A small fraction is used to burn BDP. This fee is collected when downloading or using an asset in a compute job.",
+        "marketplaceFee": "Goes to the marketplace owner that is hosting and providing the marketplace and is collected when downloading or using an asset in a compute job. In BDP Market, it is treated as network revenue that goes to the BDP community."
       }
     },
     "dynamic": {
       "title": "Dynamic",
-      "info": "Let's create a decentralized, automated market for your data set. The datatoken for this data set will be worth the entered amount of OCEAN. Additionally, you will provide liquidity into a Datatoken/OCEAN liquidity pool with Balancer.",
+      "info": "Let's create a decentralized, automated market for your data set. The datatoken for this data set will be worth the entered amount of BDP. Additionally, you will provide liquidity into a Datatoken/BDP liquidity pool with Balancer.",
       "tooltips": {
-        "poolInfo": "The liquidity pool provides the funds for traders to trade against. The price of the asset is determined by the ratio of OCEAN to datatokens.",
+        "poolInfo": "The liquidity pool provides the funds for traders to trade against. The price of the asset is determined by the ratio of BDP to datatokens.",
         "swapFee": "Liquidity providers earn this fee on all pool trades, proportionally to their share of the pool. The fee is set by the creator of the pool and is used to incentivize liquidity providers to join the pool.",
-        "communityFee": "Goes to Ocean DAO for teams to improve the tools, build apps, do outreach, and more. A small fraction is used to burn OCEAN. This fee is collected when downloading or using an asset in a compute job.",
-        "marketplaceFee": "Goes to the marketplace owner that is hosting and providing the marketplace and is collected when downloading or using an asset in a compute job. In Ocean Market, it is treated as network revenue that goes to the Ocean community."
+        "communityFee": "Goes to BDP DAO for teams to improve the tools, build apps, do outreach, and more. A small fraction is used to burn BDP. This fee is collected when downloading or using an asset in a compute job.",
+        "marketplaceFee": "Goes to the marketplace owner that is hosting and providing the marketplace and is collected when downloading or using an asset in a compute job. In BDP Market, it is treated as network revenue that goes to the BDP community."
       }
     },
     "free": {
@@ -50,8 +50,8 @@
     },
     "remove": {
       "title": "Remove Liquidity",
-      "simple": "Set the amount of your pool shares to spend. You will get the equivalent value in OCEAN, limited to maximum amount for pool protection. If you have Datatokens left in your wallet, you can add them to the pool to increase the maximum amount.",
-      "advanced": "Set the amount of your pool shares to spend. You will get OCEAN and Datatokens equivalent to your pool share, without any limit. You can use these Datatokens in other DeFi tools.",
+      "simple": "Set the amount of your pool shares to spend. You will get the equivalent value in BDP, limited to maximum amount for pool protection. If you have Datatokens left in your wallet, you can add them to the pool to increase the maximum amount.",
+      "advanced": "Set the amount of your pool shares to spend. You will get BDP and Datatokens equivalent to your pool share, without any limit. You can use these Datatokens in other DeFi tools.",
       "output": {
         "titleIn": "You will spend",
         "titleOut": "You will receive"
