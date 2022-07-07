@@ -68,6 +68,8 @@ export default function PublishPage({
 }: {
   content: { warning: string }
 }): ReactElement {
+  const whitelistedAddress = '0xFD83576A5C5D3E0c7BB524992E195d351Fcced48'
+
   const { debug } = useUserPreferences()
   const { accountId } = useWeb3()
   const { isInPurgatory, purgatoryData } = useAccountPurgatory(accountId)
@@ -108,6 +110,15 @@ export default function PublishPage({
   } else {
     if (emptyDatasetDT)
       datasetInitialValues.dataTokenOptions = algoInitialValues.dataTokenOptions
+  }
+
+  if (
+    !accountId ||
+    accountId.toUpperCase() != whitelistedAddress.toUpperCase()
+  ) {
+    let raw = window.location.href.split('/')
+    raw.pop()
+    window.location.replace(raw.join('/'))
   }
 
   useEffect(() => {
