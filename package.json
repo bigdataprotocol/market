@@ -27,8 +27,8 @@
   "dependencies": {
     "@coingecko/cryptoformat": "^0.4.4",
     "@loadable/component": "^5.15.0",
-    "@oceanprotocol/art": "^3.2.0",
-    "@oceanprotocol/lib": "^0.20.0",
+    "@oceanprotocol/art": "github:compositedev/art#main",
+    "@oceanprotocol/lib": "github:compositedev/bdp.js#v3",
     "@oceanprotocol/typographies": "^0.1.0",
     "@portis/web3": "^4.1.0",
     "@sindresorhus/slugify": "^2.1.0",
