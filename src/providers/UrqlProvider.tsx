@@ -7,7 +7,7 @@ let urqlClient: Client
 
 function createUrqlClient(subgraphUri: string) {
   const client = createClient({
-    url: `${subgraphUri}/subgraphs/name/oceanprotocol/ocean-subgraph`
+    url: `${subgraphUri}/subgraphs/name/bigdataprotocol/bdp-subgraph`
   })
   return client
 }

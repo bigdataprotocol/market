@@ -273,7 +273,7 @@ export function getQueryContext(chainId: number): OperationContext {
   const queryContext: OperationContext = {
     url: `${getSubgraphUri(
       Number(chainId)
-    )}/subgraphs/name/oceanprotocol/ocean-subgraph`,
+    )}/subgraphs/name/bigdataprotocol/bdp-subgraph`,
     requestPolicy: 'cache-and-network'
   }
 
@@ -305,7 +305,7 @@ export async function fetchDataForMultipleChains(
     const context: OperationContext = {
       url: `${getSubgraphUri(
         chainId
-      )}/subgraphs/name/oceanprotocol/ocean-subgraph`,
+      )}/subgraphs/name/bigdataprotocol/bdp-subgraph`,
       requestPolicy: 'network-only'
     }
     try {

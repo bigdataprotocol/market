@@ -47,7 +47,7 @@ async function getBlockHead(config: ConfigHelperConfig) {
 
 async function getBlockSubgraph(subgraphUri: string) {
   const response: any = await fetchGraph(
-    `${subgraphUri}/subgraphs/name/oceanprotocol/ocean-subgraph`,
+    `${subgraphUri}/subgraphs/name/bigdataprotocol/bdp-subgraph`,
     graphQuery
   )
   const blockNumberGraph = Number(response.data._meta.block.number)
