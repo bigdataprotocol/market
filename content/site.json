@@ -1,7 +1,7 @@
 {
   "site": {
     "siteTitle": "BDP Market",
-    "siteTagline": "A marketplace to find, publish and trade data sets on the BDP Network.",
+    "siteTagline": "Use, stake, earn, and trade datatokens from professional data providers.",
     "siteUrl": "https://market.bigdataprotocol.com",
     "siteIcon": "node_modules/@oceanprotocol/art/logo/favicon-white.png",
     "siteImage": "../src/images/share.png",
