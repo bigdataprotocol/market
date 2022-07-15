@@ -31,7 +31,7 @@ export default function PricesProvider({
   children: ReactNode
 }): ReactElement {
   const { appConfig } = useSiteMetadata()
-  const tokenId = 'ocean-protocol'
+  const tokenId = 'big-data-protocol'
   const currencies = appConfig.currencies.join(',') // comma-separated list
   const url = `https://api.coingecko.com/api/v3/simple/price?ids=${tokenId}&vs_currencies=${currencies}`
 

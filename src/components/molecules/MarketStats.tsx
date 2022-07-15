@@ -115,7 +115,7 @@ export default function MarketStats(): ReactElement {
       const context: OperationContext = {
         url: `${getSubgraphUri(
           chainId
-        )}/subgraphs/name/oceanprotocol/ocean-subgraph`,
+        )}/subgraphs/name/bigdataprotocol/bdp-subgraph`,
         requestPolicy: 'network-only'
       }
 

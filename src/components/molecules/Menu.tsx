@@ -9,6 +9,7 @@ import Badge from '../atoms/Badge'
 import Logo from '../atoms/Logo'
 import Networks from './UserPreferences/Networks'
 import SearchBar from './SearchBar'
+import { useWeb3 } from '../../providers/Web3'
 
 const Wallet = loadable(() => import('./Wallet'))
 
@@ -33,6 +34,9 @@ function MenuLink({ item }: { item: MenuItem }) {
 }
 
 export default function Menu(): ReactElement {
+  const { accountId } = useWeb3()
+  const whitelistedAddress = '0xFD83576A5C5D3E0c7BB524992E195d351Fcced48'
+
   const { menu, siteTitle } = useSiteMetadata()
 
   return (
@@ -45,11 +49,15 @@ export default function Menu(): ReactElement {
       </Link>
 
       <ul className={styles.navigation}>
-        {menu.map((item: MenuItem) => (
-          <li key={item.name}>
-            <MenuLink item={item} />
-          </li>
-        ))}
+        {menu.map(
+          (item: MenuItem) =>
+            (item.name != 'Publish' ||
+              (item.name == 'Publish' && accountId == whitelistedAddress)) && (
+              <li key={item.name}>
+                <MenuLink item={item} />
+              </li>
+            )
+        )}
       </ul>
 
       <div className={styles.actions}>
