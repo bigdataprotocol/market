@@ -28,7 +28,7 @@
     "@coingecko/cryptoformat": "^0.4.4",
     "@loadable/component": "^5.15.0",
     "@oceanprotocol/art": "github:compositedev/art#main",
-    "@oceanprotocol/lib": "github:compositedev/bdp.js#d868f98a3f41e42531f0aa26694d1f6bf8f5cef4",
+    "@oceanprotocol/lib": "github:compositedev/bdp.js#6ee9ca8569d90da28be250887517f68e97659cfa",
     "@oceanprotocol/typographies": "^0.1.0",
     "@portis/web3": "^4.1.0",
     "@sindresorhus/slugify": "^2.1.0",
