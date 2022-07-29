@@ -1,9 +1,9 @@
 {
   "name": "@oceanprotocol/market",
-  "description": "Data marketplace for ocean.",
+  "description": "Data marketplace for Big Data Protocol.",
   "version": "1.0.0",
   "license": "Apache-2.0",
-  "homepage": "https://market.oceanprotocol.com",
+  "homepage": "https://market.bigdataprotocol.com",
   "scripts": {
     "start": "gatsby develop --host 0.0.0.0",
     "build": "gatsby build && cp _redirects public/_redirects",
