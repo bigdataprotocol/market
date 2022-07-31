@@ -141,7 +141,7 @@
   },
   "engines": {
     "node": ">=14"
-  },
+  }, 
   "browserslist": [
     ">0.2%",
     "not dead",
