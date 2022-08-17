@@ -23,13 +23,13 @@ module.exports = {
   // The ETH address the marketplace fee will be sent to.
   marketFeeAddress:
     process.env.GATSBY_MARKET_FEE_ADDRESS ||
-    '0x9984b2453eC7D99a73A5B3a46Da81f197B753C8d',
+    '0xFD83576A5C5D3E0c7BB524992E195d351Fcced48',
 
   // Used for conversion display, can be whatever coingecko API supports
   // see: https://api.coingecko.com/api/v3/simple/supported_vs_currencies
   currencies: [
-    'EUR',
     'USD',
+    'EUR',
     'CAD',
     'GBP',
     'SGD',
