@@ -96,7 +96,7 @@ export default function Output({
         </div>
         <div>
           <p>{titleOut}</p>
-          <Token symbol="OCEAN" balance={poolOcean} />
+          <Token symbol="BDP" balance={poolOcean} />
           <Token symbol={dtSymbol} balance={poolDatatoken} />
         </div>
       </div>

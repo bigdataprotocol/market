@@ -271,11 +271,11 @@ export default function Remove({
           <p>{content.output.titleOut} minimum</p>
           {isAdvanced === true ? (
             <>
-              <Token symbol="OCEAN" balance={minOceanAmount} />
+              <Token symbol="BDP" balance={minOceanAmount} />
               <Token symbol={dtSymbol} balance={minDatatokenAmount} />
             </>
           ) : (
-            <Token symbol="OCEAN" balance={minOceanAmount} />
+            <Token symbol="BDP" balance={minOceanAmount} />
           )}
         </div>
       </div>

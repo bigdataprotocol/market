@@ -63,7 +63,7 @@ export default function Dynamic({
     if (!account) {
       setError(`No account connected. Please connect your Web3 wallet.`)
     } else if (Number(balance.ocean) < Number(price)) {
-      setError(`Insufficient balance. You need at least ${price} OCEAN`)
+      setError(`Insufficient balance. You need at least ${price} BDP`)
     } else {
       setError(undefined)
     }
@@ -78,7 +78,7 @@ export default function Dynamic({
           <PriceUnit
             className={styles.balance}
             price={balance.ocean}
-            symbol="OCEAN"
+            symbol="BDP"
             small
           />
         )}
@@ -98,7 +98,7 @@ export default function Dynamic({
       <div className={styles.tokens}>
         <Coin
           name="oceanAmount"
-          datatokenOptions={{ symbol: 'OCEAN', name: 'Ocean Token' }}
+          datatokenOptions={{ symbol: 'BDP', name: 'BDP Token' }}
           weight={`${Number(weightOnOcean) * 10}%`}
         />
         <Coin
