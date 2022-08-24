@@ -62,7 +62,7 @@ export default function Conversion({
   return (
     <span
       className={styleClasses}
-      title="Approximation based on current OCEAN spot price on Coingecko"
+      title="Approximation based on current BDP spot price on Coingecko"
     >
       {showTVLLabel && 'TVL'}
       {!hideApproximateSymbol && '≈ '}
