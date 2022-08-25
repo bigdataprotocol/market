@@ -7,7 +7,7 @@ module.exports = {
   // return appConfig.metadataCacheUri
   metadataCacheUri:
     process.env.METADATACACHE_URI ||
-    'https://aquarius.v3.dev.bigdataprotocolmarket.com',
+    'https://aquarius.v3.bigdataprotocolmarket.com',
 
   // List of chainIds which metadata cache queries will return by default.
   // This preselects the Chains user preferences.
