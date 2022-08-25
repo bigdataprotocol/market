@@ -1,5 +1,5 @@
 overwrite: true
-schema: 'https://rinkeby.subgraph.v3.dev.bigdataprotocolmarket.com/subgraphs/name/bigdataprotocol/bdp-subgraph'
+schema: 'https://mainnet.subgraph.v3.bigdataprotocolmarket.com/subgraphs/name/bigdataprotocol/bdp-subgraph'
 documents:
   - './src/utils/subgraph.ts'
   - './src/components/pages/History/PoolShares.tsx'
