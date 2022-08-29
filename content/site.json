@@ -17,7 +17,7 @@
       }
     ],
     "warning": {
-      "main": "We are in beta. Please familiarize yourself with [the market](https://medium.com/big-data-protocol/how-to-use-and-earn-in-the-bdp-data-market-c0ca133e34d1), [the risks](https://blog.oceanprotocol.com/on-staking-on-data-in-ocean-market-3d8e09eb0a13), and the [Terms of Use](/terms).",
+      "main": "We are in beta. Please familiarize yourself with [the market](https://medium.com/big-data-protocol/how-to-use-and-earn-in-the-bdp-data-market-c0ca133e34d1), [the risks](https://medium.com/big-data-protocol/how-to-use-and-earn-in-the-bdp-data-market-c0ca133e34d1), and the [Terms of Use](/terms).",
       "polygonPublish": "Only republish data sets with a pool from ETH Mainnet into Polygon/Matic if the liquidity is **less than or equal to 1000 BDP in the original pool**. Doing otherwise will lead to purgatory for the data set in Polygon/Matic."
     },
     "announcement": {

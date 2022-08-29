@@ -198,7 +198,7 @@ export default function HomePage(): ReactElement {
             }
           />
         )}
-        <PublishersWithMostSales title="Publishers with most sales" />
+        
       </>
     </Permission>
   )
