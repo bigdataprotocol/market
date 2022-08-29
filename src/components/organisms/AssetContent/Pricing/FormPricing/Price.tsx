@@ -45,7 +45,7 @@ export default function Price({
               value="0"
               name="price"
               type="number"
-              prefix="OCEAN"
+              prefix="BDP"
               readOnly
             />
           ) : (
@@ -53,7 +53,7 @@ export default function Price({
               value={field.value}
               name="price"
               type="number"
-              prefix="OCEAN"
+              prefix="BDP"
               min="1"
               {...field}
             />
