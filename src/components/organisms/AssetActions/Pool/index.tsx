@@ -463,7 +463,7 @@ export default function Pool(): ReactElement {
                 {weightDt && (
                   <span
                     className={styles.titleInfo}
-                    title={`Weight of ${weightOcean}% OCEAN & ${weightDt}% ${dtSymbol}`}
+                    title={`Weight of ${weightOcean}% BDP & ${weightDt}% ${dtSymbol}`}
                   >
                     {weightOcean}/{weightDt}
                   </span>
