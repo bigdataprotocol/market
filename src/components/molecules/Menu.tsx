@@ -35,7 +35,7 @@ function MenuLink({ item }: { item: MenuItem }) {
 
 export default function Menu(): ReactElement {
   const { accountId } = useWeb3()
-  const whitelistedAddress = '0xFD83576A5C5D3E0c7BB524992E195d351Fcced48'
+  const whitelistedAddress = '0x89717015882D6460e4A0daeB945B3D4032f2D9D6'
 
   const { menu, siteTitle } = useSiteMetadata()
 
