@@ -2,7 +2,7 @@ import { UserPreferencesValue } from '../../../src/providers/UserPreferences'
 
 const useUserPreferences: UserPreferencesValue = {
   debug: false,
-  currency: 'EUR',
+  currency: 'USD',
   locale: 'de',
   chainIds: [1],
   bookmarks: [],

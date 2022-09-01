@@ -57,7 +57,7 @@ function UserPreferencesProvider({
   // Set default values from localStorage
   const [debug, setDebug] = useState<boolean>(localStorage?.debug || false)
   const [currency, setCurrency] = useState<string>(
-    localStorage?.currency || 'EUR'
+    localStorage?.currency || 'USD'
   )
   const [locale, setLocale] = useState<string>()
   const [bookmarks, setBookmarks] = useState(localStorage?.bookmarks || [])
