@@ -14,7 +14,11 @@ When deploying Marketplace to the new network - you'll have the new addresses of
 1. [Backend components here](https://github.com/compositedev/bdp.js/blob/v3/src/utils/ConfigHelper.ts)
 2. [Contract addresses](https://github.com/compositedev/contracts/blob/main/artifacts/address.json)
 3. [Aquarius URI, supported chains, etc.](https://github.com/bigdataprotocol/market/blob/v3/app.config.js)
-4. [Subgraph URI](https://github.com/bigdataprotocol/market/blob/v3/apollo.config.js)
+4. Whitelisted deployment address in three files:
+  - https://github.com/bigdataprotocol/market/blob/v3/app.config.js#L26
+  - https://github.com/bigdataprotocol/market/blob/v3/src/components/molecules/Menu.tsx#L38
+  - https://github.com/bigdataprotocol/market/blob/v3/src/components/pages/Publish/index.tsx#L71
+5. [Subgraph URI](https://github.com/bigdataprotocol/market/blob/v3/apollo.config.js)
 
 **Note**: when you update the dependent library (`JS lib`, `art` or `contracts`) you will need to update the dependencies in **each upstream library**.
 It means that if you update the `contracts` - you'll have to update both `JS lib` and `Market`. 
